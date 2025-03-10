@@ -1,0 +1,29 @@
+{
+  "name": "minority-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env TS_NODE_TRANSPILE_ONLY=true node --loader ts-node/esm src/server/socket-server.mts",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node src/server/socket-server.mjs"
+  },
+  "dependencies": {
+    "next": "15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.7",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/socket.io-client": "^1.4.36",
+    "cross-env": "^7.0.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "typescript": "^5.3.3"
+  }
+}
