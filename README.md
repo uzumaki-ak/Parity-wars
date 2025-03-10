@@ -17,7 +17,9 @@ Minority Wins is a real-time multiplayer game where players join a lobby, choose
 ✅ WebSocket Communication – Uses Socket.io for instant updates.
 ✅ Dynamic Lobby System – Displays active players in real-time.
 ✅ Elimination Rounds – The majority choice is eliminated, and the game repeats until one winner remains.
-✅ Minimal UI with Dark Mode – Styled using TailwindCSS with a black background and red text.
+✅ when game ends the winner name is displayed on everone screen
+
+
 ✅ Automatic Game Reset – After a game ends, players can start a new round.
 
 
@@ -43,8 +45,8 @@ State Management: React Hooks
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-repo/minority-wins-game.git
-cd minority-wins-game
+git clone https://github.com/uzumaki-ak/Parity-wars.git
+cd minority-game
 
 2️⃣ Install Dependencies
 
@@ -52,20 +54,11 @@ npm install
 
 3️⃣ Start the Development Server
 
-Run the Next.js Client
+
 
 npm run dev
 
 Open http://localhost:3000 in your browser.
-
-
-Run the WebSocket Server
-
-If the WebSocket server is a separate backend, navigate to the server folder and start it:
-
-node server.js
-
-The WebSocket server will run on http://localhost:3001 (if separate from Next.js).
 
 
 
