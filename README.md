@@ -2,6 +2,111 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Minority Wins Game - README
+
+🚀 Introduction
+
+Minority Wins is a real-time multiplayer game where players join a lobby, choose between Heads or Tails, and compete based on the rule that the majority loses while the minority progresses. The game continues until only one player remains, who is declared the winner.
+
+
+---
+
+📌 Features
+
+✅ Real-time Multiplayer – Players join a shared lobby and interact in real-time.
+✅ WebSocket Communication – Uses Socket.io for instant updates.
+✅ Dynamic Lobby System – Displays active players in real-time.
+✅ Elimination Rounds – The majority choice is eliminated, and the game repeats until one winner remains.
+✅ Minimal UI with Dark Mode – Styled using TailwindCSS with a black background and red text.
+✅ Automatic Game Reset – After a game ends, players can start a new round.
+
+
+---
+
+🛠 Tech Stack
+
+Frontend: Next.js 15 (App Router)
+
+Backend: Node.js, Express
+
+WebSockets: Socket.io
+
+Styling: TailwindCSS
+
+State Management: React Hooks
+
+
+
+---
+
+📥 Installation & Setup
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-repo/minority-wins-game.git
+cd minority-wins-game
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Start the Development Server
+
+Run the Next.js Client
+
+npm run dev
+
+Open http://localhost:3000 in your browser.
+
+
+Run the WebSocket Server
+
+If the WebSocket server is a separate backend, navigate to the server folder and start it:
+
+node server.js
+
+The WebSocket server will run on http://localhost:3001 (if separate from Next.js).
+
+
+
+---
+
+🕹 How to Play?
+
+1️⃣ Enter your name and join the lobby.
+2️⃣ Wait for other players to join.
+3️⃣ Each round, choose Heads or Tails.
+4️⃣ The majority choice gets eliminated while the minority moves forward.
+5️⃣ The game continues until only one winner remains!
+
+
+---
+
+🌍 Deployment (Optional)
+
+To deploy your Next.js frontend:
+
+vercel deploy
+
+To deploy your WebSocket server (if separate):
+
+render deploy
+
+
+---
+
+📌 Future Enhancements
+
+🚀 Leaderboard System – Track past winners.
+🚀 Private Game Rooms – Allow players to create & join custom lobbies.
+🚀 Spectator Mode – Let users watch ongoing games.
+
+
+---
+
+Let me know if you need any modifications!
+
+
 First, run the development server:
 
 ```bash
